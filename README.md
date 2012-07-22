@@ -1,7 +1,16 @@
-This repository contains templates for Lift projects.
+The strange case of the %s oddness in Crudify
+=============================================
 
-These templates offer a starting point for your Lift-based project.
+    cd scala_29/lift_basic
+    ./sbt
+    sbt> container:start
 
-If you want to start with Scala 2.9.1, use the templates in the scala_29 directory
+Open http://127.0.0.1:8080 and observe the top of the left-hand menu shows:
 
-Questions, feedback, etc. please join the conversation at https://groups.google.com/forum/#!forum/liftweb
+    List %s invoice
+
+It should say
+
+    List invoice
+
+
